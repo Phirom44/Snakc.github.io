@@ -1,0 +1,26 @@
+body{
+    background-color: azure;
+}
+div{
+    
+    text-align: center;
+}
+.Pic{
+ 
+    width: 60%;
+    border-radius: 15%;
+    background-color: black;
+    box-shadow: 0px 2px 10px;
+    margin-top: 3rem;
+}
+button{
+    text-align: center;
+    width: 70%;
+    height: auto;
+    padding: 1.5%;
+    margin-bottom: 0.5rem;
+    background-color: cadetblue;
+    box-shadow: 1px 5px;
+    
+}
+

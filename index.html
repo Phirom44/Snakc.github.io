@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tii Snack Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <img src="Tii.jpg" alt="image" class="Pic">
+        <h1>Welcome To Tii Snack Store</h1>
+        <p>មានលក់នំ​ អាហារសម្រន់ នឹង ភេសជ្ចៈ</p>
+        <button id="facebook" class="F">Facebook Page</button><br>
+        <button id="Gtelegram" class="GT">Group Telegram</button><br>
+        <button id="Telegram" class="T">Telegram</button><br>
+        <button id="Instagram" class="I">Instagram</button><br>
+        <button id="TikTok" class="tikTok">Tik Tok</button><br>
+    </div>
+    <script>
+        const Facebook  = document.getElementById('facebook');
+        const Gtelegram = document.getElementById('Gtelegram');
+        const Instagram = document.getElementById('Instagram');
+        const Telegram = document.getElementById('Telegram');
+        const TikTok = document.getElementById('TikTok');
+
+        Facebook.addEventListener("click",function(){
+            window.open("https://web.facebook.com/Chab.Somaty/","_blank");
+        })
+        Gtelegram.addEventListener("click" ,function(){
+            window.open("https://t.me/CHABSOMATY","_blank");
+        })
+        Telegram.addEventListener("click",function(){
+            window.open("https://t.me/CHABSOMATY","_blank");
+        })
+        Instagram.addEventListener("click",function(){
+            window.open("https://instagram.com/chab_somaty?igshid=OGQ5ZDc2ODk2ZA==","_blank");
+        })
+        TikTok.addEventListener("click",function(){
+            window.open("https://www.tiktok.com/@tiistore26","_blank");
+        })
+     </script>
+</body>
+
+</html>
